@@ -1,0 +1,17 @@
+dependencies {
+
+    implementation "com.google.dagger:dagger:${versions.dagger}"
+
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-extensions:${versions.androidxArch}"
+
+    //Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.coroutines}"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutines}"
+
+    //LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:${versions.archLifecycleVersion}"
+    implementation "androidx.lifecycle:lifecycle-runtime:${versions.archLifecycleVersion}"
+    implementation "android.arch.paging:runtime:${versions.archPagingRuntime}"
+
+}
